@@ -1,11 +1,13 @@
 #define _CRT_SECURE_NO_WARNINGS 
-
+#include <string>
 #include <windows.h>                			//GetAsyncKeyState所需头文件
 #include <iostream>
 #include <graphics.h>
 
 
 #pragma comment (lib, "Winmm.lib")//导入Winmm.lib库
+//using namespace std;
+
 
 int main()
 {
